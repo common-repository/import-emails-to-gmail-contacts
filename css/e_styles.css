@@ -1,0 +1,201 @@
+.large_text_code{color:red !important;}
+.import_email b {
+    color: #c52228;
+}
+.import_email span{color:#E37E52;margin-bottom:5px;}
+.import_email h3 a{float: right;}
+.import_email {
+  max-width: 300px;
+  margin: 18px 38px 1px 2px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+  float:right;
+}
+.import_email input[type="text"]
+ {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 6px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 9px;
+}
+
+.import_email input[type="radio"]{
+  margin: 0 4px 8px 0;
+}
+
+.raido_default{
+display: none;
+}
+.imports {
+  padding: 5px 9px 6px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  cursor:pointer;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+   margin-top: 16px;
+}
+
+.del_text {
+  padding: 5px 9px 6px;
+  color: #FFF;
+  background-color: #C52228;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  cursor:pointer;
+  /*border: 1px solid #3ac162;*/
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+   margin-top: 16px;
+}
+
+
+
+.radio_list{
+	margin-bottom:43px;
+}
+.radio_list label{
+	margin-left:32px;
+}
+.main_select{
+	display: inline-block;
+    width: 41%;
+	margin: 22px 25px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: 'Nunito', sans-serif;
+	color: #384047;
+	height: 312px;
+	
+}
+
+.main_select  h3{    
+	color: #1e9c43;
+	font-size: 22px;
+	margin-top: 100px;
+	text-align: center;
+	line-height: 35px;
+	}
+.main_select  h3 span{
+	color:#0073aa;
+	}
+	
+.main_select  h4{    
+	color: #1e9c43;
+	font-size: 22px;
+	margin-top: 100px;
+	text-align: center;
+	line-height: 35px;
+	}
+.main_select  h4 span{
+	color:#C52228;
+	}
+	
+.main_select  img{    
+    margin-top: 100px;
+   margin-left: 200px;}
+	
+	
+.raido_default{ margin-left:45px;}
+.Users_list { 
+
+border-collapse: collapse; 
+}
+
+/* Zebra striping */
+.Users_list tr:nth-of-type(odd) { 
+background: #eee; 
+}
+
+
+
+.Users_list td { 
+padding: 9px; 
+
+text-align:left; 
+}
+
+
+.Users_list table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+.Users_list  tbody{ display: block; }
+.Users_list tr{display: block;}
+
+.Users_list  tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+
+.Users_list  tbody {
+    height: 189px;
+    overflow-y: auto;
+}
+
+
+
+.Users_list tbody {  }
+
+
+
+.Users_list tbody td:last-child {
+    border-right: none;
+}
+
+
+
+.develop1 {
+    bottom: -55px;
+    color: #0073aa;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+}
+.develop1 a {
+    color: #fa5f66;
+  
+}
+
+.updated{
+	margin-top:19px;
+}
+
+
+
+@media screen and (min-width: 480px) {
+
+  .import_email {
+    max-width: 480px;
+  }
+
+}
